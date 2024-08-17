@@ -1,0 +1,75 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+
+}
+:root{
+    --a:blue;
+    --b:rgb(148, 186, 251);
+
+}
+
+.collapse .nav-item {
+    border: 2px solid transparent;
+}
+
+.collapse .nav-item:hover {
+    color: var(--a);
+    border-bottom: 2px solid var(--a);
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    
+}
+
+.collapse .nav-item:active {
+    background-color: gray;
+    color: white;
+}
+
+.profile {
+    height: 500px;
+}
+
+@media(max-width:999px) {
+    .navgap {
+        column-gap: 24px !important;
+    }
+}
+
+@media (min-width:1000px) {
+    .navgap {
+        column-gap: 48px !important;
+    }
+}
+.Icon{
+    height: 30px;
+    width: 34px;
+    color: rgb(84, 84, 84);
+    
+}
+
+.iconset{
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid rgb(93, 93, 93);
+    background-color: white;
+}
+.iconset:hover{
+    background-color: var(--b);
+    transition-duration: .5s;
+    box-shadow: 1px 1px 20px 2px var(--b), -1px -1px 20px 2px var(--b);
+}
+.iconcontainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+}
+.routerlink{
+    text-decoration: none;
+    color: black;
+    
+}
