@@ -1,7 +1,19 @@
 import React from 'react'
+import Projectcarousel from '../components/Projectcarousel'
+import Designed from '../components/Designed'
 
-export default function Project() {
+function Project() {
   return (
-    <div>Project</div>
+    <>
+
+      <div className="container">
+        
+        
+        <Projectcarousel />
+        <Designed/>
+      </div>
+    </>
   )
 }
+
+export default Project
