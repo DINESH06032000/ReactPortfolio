@@ -6,9 +6,7 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    
 }
-
 
 body {
     color: white !important;
@@ -71,8 +69,8 @@ body {
 }
 
 .collapse .nav-item:active {
-    background-color: gray;
-    color: white;
+    background-color: var(--f);
+    color: var(--d);
 }
 .toggle-container,.toggle-container2,.toggle-container3{
     margin-top: 100px;
@@ -177,7 +175,7 @@ tr{
 
 @media(max-width:426px){
     body,button{
-        font-size: 8px !important;
+        font-size: 9px !important;
     }
     .span{
         font-size: 12px !important;
@@ -223,7 +221,11 @@ tr{
         margin-top: 100px;
     }
     td{
-        padding: 5px 10px !important;
+        padding: 5px 5px !important;
+       
+    }
+    tr{
+        height: 30px;
     }
     .downloadcv1{
         margin-top: 20px;

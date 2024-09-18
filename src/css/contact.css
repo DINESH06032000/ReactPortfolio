@@ -19,15 +19,23 @@
     background-color: var(--e);
 }
 
+@media(max-width:425px) {
+    
+    .iconsform {
+        font-size: 12px !important;
+    
+    }
+}
 @media(max-width:375px) {
     .contactform {
         padding: 30px !important;
     }
     .iconsform {
-        font-size: 10px !important;
+        font-size: 8px !important;
     
     }
 }
+
 
 .contact {
     margin-top: 50px;

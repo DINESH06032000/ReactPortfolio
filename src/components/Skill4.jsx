@@ -65,7 +65,7 @@ function Skill4() {
         <>
             <div className="toggle-container4">
                 <div className="toggle-button4">
-                    <span className="toggle-icon4 sapn">Software's</span>
+                    <span className="toggle-icon4 span">Software's</span>
                 </div>
                 <div className="social-icons4">
                     < VscVscode className="social-icon4" />
